@@ -16,6 +16,7 @@ public class GitWindow {
 				try {
 					GitWindow window = new GitWindow();
 					window.frame.setVisible(true);
+					window.frame.setTitle("Github Helper");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
